@@ -44,5 +44,5 @@ This project was created to practice analyzing authentication logs and detecting
 
 ## Author
 
-Even Torkildsrud  
+Even Hynden Torkildsrud  
 Bachelor in Information Technology – Cybersecurity
