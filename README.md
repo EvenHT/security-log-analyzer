@@ -1,6 +1,6 @@
 # Security Log Analyzer
 
-Python tool for analyzing authentication logs and detecting suspicious login activity such as brute force attempts.
+A lightweight Python tool for analyzing authentication logs and detecting suspicious login activity such as potential brute force attacks.
 
 ## Features
 
@@ -9,11 +9,18 @@ Python tool for analyzing authentication logs and detecting suspicious login act
 - Detects possible brute force attacks
 - Generates a security report
 
-## Example log
+## Example
+
+Example log:
 
 Failed login from 192.168.1.10  
 Failed login from 192.168.1.10  
 Successful login from 10.0.0.5  
+
+Example output:
+
+192.168.1.10 -> 4 failed attempts  
+Possible brute force detected
 
 ## Usage
 
@@ -21,27 +28,21 @@ Run the script:
 
 python log_analyzer.py
 
-Then enter the log file:
+Enter the log file when prompted:
 
 sample_log.txt
 
-## Example output
+## Technologies Used
 
---- Security Log Analysis ---
+- Python 3
+- Log parsing
+- Basic intrusion detection techniques
 
-Successful logins: 2
+## Purpose
 
-Failed login attempts by IP:
-
-192.168.1.10 -> 4 failed attempts
-
-Suspicious IPs (possible brute force):
-
-192.168.1.10 - possible brute force attack
-
-Report saved to security_report.txt
+This project was created to practice analyzing authentication logs and detecting suspicious activity such as brute force attacks.
 
 ## Author
 
-Even Hynden Torkildsrud  
+Even Torkildsrud  
 Bachelor in Information Technology – Cybersecurity
